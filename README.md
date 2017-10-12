@@ -1,4 +1,4 @@
-## Blueprint API investigation
+## Investigation on REST API documenting
 
 ### Useful links:
 * Comparison:
@@ -43,7 +43,8 @@ Proprietary tool.
 2. Swagger API currently supports open-api 2.0 
 3. Supports for [JSDoc](https://github.com/Surnet/swagger-jsdoc)
 
-### To generate REST API use:
+### Conclusion
+To generate REST API use:
 1. API specificification: Open API 2.0
 2. Tools: swagger
 3. JSDoc tool: swagger-jsdoc
