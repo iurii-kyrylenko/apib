@@ -35,9 +35,15 @@ npm i
 3. To render data in the body, the json model should be used instead of attributes. (real-world).
 4. Do not has support for JSDoc.
 
-### Notes on apiary
+### Notes on blueprint/apiary
 Proprietary tool.
 
-### Notes on swagger
+### Notes on open-api/swagger
 1. Supports structures and attributes.
-2. Supports for [JSDoc](https://github.com/Surnet/swagger-jsdoc)
+2. Swagger API currently supports open-api 2.0 
+3. Supports for [JSDoc](https://github.com/Surnet/swagger-jsdoc)
+
+### To generate REST API use:
+1. API specificification: Open API 2.0
+2. Tools: swagger
+3. JSDoc tool: swagger-jsdoc
