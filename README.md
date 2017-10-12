@@ -26,7 +26,8 @@ npm i
 ```
 
 ### Run swagger-ui
-Go to this disribution of [swagger-ui](https://github.com/iurii-kyrylenko/rest-api-doc/blob/master/swagger-ui-dist/index.html)
+1. Download swagger-ui-dist.
+2. Open index.html in your browser.
 
 ### Notes on blueprint/aglio:
 1. Attributes aren't supported. Schema is rendered instead. (08).
