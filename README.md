@@ -29,6 +29,11 @@ npm i
 1. Download [this repository](https://github.com/iurii-kyrylenko/rest-api-doc/archive/master.zip) and unzip it.
 2. Open `swagger-ui-dist/index.html` in your browser.
 
+### Run swagger-ui hosted on local server
+1. Install http-server globally: `npm i -g http-server`.
+2. Launch server: `cd swagger-ui-dist && http-server --cors -c-1`
+3. Navigate to `http://localhost:8080`.
+
 ### Notes on blueprint/aglio:
 1. Attributes aren't supported. Schema is rendered instead. (08).
 2. Data structures are rendered as schemas. Body is not rendered. (10).
@@ -40,11 +45,11 @@ Proprietary tool.
 
 ### Notes on open-api/swagger
 1. Supports structures and attributes.
-2. Swagger API currently supports open-api 2.0 
+2. Swagger API currently supports open-api 3.0 [?]
 3. Supports for [JSDoc](https://github.com/Surnet/swagger-jsdoc)
 
 ### Conclusion
 To generate REST API use:
-1. API specificification: Open API 2.0
+1. API specificification: Open API 3.0 [?]
 2. Tools: swagger
 3. JSDoc tool: swagger-jsdoc
