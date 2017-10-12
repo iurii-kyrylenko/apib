@@ -16,15 +16,17 @@
 * Others:
     * http://apidocjs.com/#examples
 
-### Install:
+### Install aglio:
 ```
 npm i
 ```
-
 ### aglio: generate html from md:
 ```
 ./node_modules/.bin/aglio -i 08.md -o 08.html
 ```
+
+### Run swagger-ui
+Go to this disribution of [swagger-ui](https://github.com/iurii-kyrylenko/rest-api-doc/blob/master/swagger-ui-dist/index.html)
 
 ### Notes on blueprint/aglio:
 1. Attributes aren't supported. Schema is rendered instead. (08).
