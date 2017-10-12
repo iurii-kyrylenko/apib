@@ -12,6 +12,8 @@
     * https://github.com/danielgtaylor/aglio
 * Open API:
     * https://swagger.io/
+    * https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md
+    * https://swagger.io/docs/specification/about/
     * https://github.com/Surnet/swagger-jsdoc 
 * Others:
     * http://apidocjs.com/#examples
@@ -48,7 +50,7 @@ Proprietary tool.
 2. Swagger API currently supports open-api 3.0 [?]
 3. Supports for [JSDoc](https://github.com/Surnet/swagger-jsdoc)
 
-### Conclusion
+### SUMMARY
 To generate REST API use:
 1. API specificification: Open API 3.0 [?]
 2. Tools: swagger
