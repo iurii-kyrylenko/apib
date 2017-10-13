@@ -26,7 +26,6 @@ npm i
 ```
 ./node_modules/.bin/aglio -i 08.md -o 08.html
 ```
-
 ### Run swagger-ui
 1. Download [this repository](https://github.com/iurii-kyrylenko/rest-api-doc/archive/master.zip) and unzip it.
 2. Open `swagger-ui-dist/index.html` in your browser.
@@ -47,11 +46,17 @@ Proprietary tool.
 
 ### Notes on open-api/swagger
 1. Supports structures and attributes.
-2. Swagger API currently supports open-api v2,v3
-3. Supports for [JSDoc](https://github.com/Surnet/swagger-jsdoc). Currently for open-api v2.
+2. Swagger API currently supports Open API specification v2 and v3.
+3. Supports for [JSDoc](https://github.com/Surnet/swagger-jsdoc): API descriptions are embedded in source code as comments with special formatting. swagger-jsdoc currently supports Open API v2.
 
 ### SUMMARY
-To generate documentation for REST API use:
-1. API specificification: Open API v3 [?]
-2. Tools: swagger
-3. JSDoc tool: swagger-jsdoc
+1. Use API specificification `Open API`
+2. Use tool Swagger UI to render Open API document.
+3. The Swagger UI can be customized to change rendering.
+4. Host Swagger UI as a static resourse on the http server.
+5. Feed Swagger UI with Open API document in yaml or json format.
+6. The source of Open API document can be:
+    * a separate .yaml document;
+    * an output of swagger-jsdoc API (in case when .yaml fragments embedded into source code)
+7. Use Open API v3 in case of separate document.
+8. Use Open API v2 in case of JSDoc fragments.
