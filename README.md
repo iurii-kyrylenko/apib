@@ -47,11 +47,11 @@ Proprietary tool.
 
 ### Notes on open-api/swagger
 1. Supports structures and attributes.
-2. Swagger API currently supports open-api 3.0 [?]
-3. Supports for [JSDoc](https://github.com/Surnet/swagger-jsdoc)
+2. Swagger API currently supports open-api v2,v3
+3. Supports for [JSDoc](https://github.com/Surnet/swagger-jsdoc). Currently for open-api v2.
 
 ### SUMMARY
-To generate REST API use:
-1. API specificification: Open API 3.0 [?]
+To generate documentation for REST API use:
+1. API specificification: Open API v3 [?]
 2. Tools: swagger
 3. JSDoc tool: swagger-jsdoc
